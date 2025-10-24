@@ -1,7 +1,7 @@
 const lampada = document.getElementById("lampada");
 
 lampada.addEventListener("mouseover",acender);
-lampada.addEventListener("mouseovet",acender);
+lampada.addEventListener("mouseout",apagar);
 
 function acender(){
     lampada.src = "on.png";
